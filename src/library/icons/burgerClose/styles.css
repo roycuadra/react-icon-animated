@@ -1,0 +1,18 @@
+.burger.burger-close,
+.burger.burger-close::before,
+.burger.burger-close::after {
+  transition-timing-function: linear;
+  transition-duration: 0.15s;
+}
+
+.burger.burger-close.is-closed {
+  background: transparent;
+}
+
+.burger.burger-close.is-closed::before {
+  transform: rotate(-45deg) translate(-5px, 5px);
+}
+
+.burger.burger-close.is-closed::after {
+  transform: rotate(45deg) translate(-5px, -7px);
+}
