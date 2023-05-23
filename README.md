@@ -1,3 +1,4 @@
+# [Live Demo](https://react-icon-animated.vercel.app/)
 # react-icons-animated
 
 Collection of animated icons to use in React apps.
